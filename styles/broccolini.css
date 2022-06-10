@@ -1,0 +1,51 @@
+/* @import url('./home.css'); */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans', 'Segoe UI',
+        Roboto, Oxygen-sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+h1, h2 {
+    font-weight: lighter;
+}
+
+img {
+    border-radius: 10px;
+}
+
+span {
+    --turn-base: 0turn;
+    --turn-amount: 0.25turn;
+}
+
+span:nth-child(1) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 1)), 50%, 50%);
+}
+
+span:nth-child(2) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 2)), 50%, 50%);
+}
+
+span:nth-child(3) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 3)), 50%, 50%);
+}
+
+span:nth-child(4) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 4)), 50%, 50%);
+}
+
+span:nth-child(5) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 5)), 50%, 50%);
+}
+
+span:nth-child(6) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 6)), 50%, 50%);
+}
+
+span:nth-child(7) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 7)), 50%, 50%);
+}
+
+span:nth-child(8) {
+    color: hsl(calc(var(--turn-base) + calc(var(--turn-amount) * 8)), 50%, 50%);
+}

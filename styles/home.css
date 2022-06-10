@@ -1,21 +1,19 @@
-/* ====== MAIN CONTENT ====== */
-html {
+body > div {
     display: table;
     margin: 20px auto;
-    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans', 'Segoe UI',
+        Roboto, Oxygen-sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
-/* ====== HEADER ====== */
 body h1 {
     background-color: rgba(173, 216, 230, 0.232);
     background-origin: padding-box;
     color: white;
     text-shadow: 2px 2px #ff000092;
-    
+
     text-align: center;
 }
 
-/* ====== LINK ====== */
 a {
     font-size: 20px;
     text-decoration: none;
@@ -41,16 +39,4 @@ ol {
     display: table;
     margin: 10px auto;
     padding: 10px;
-} 
-
-/* li {
-    float: left;
-    margin: 1em;
-    padding: 0.5em;
-}  */
-
-/* ====== IMAGE ====== */
-/* img {
-    display: table;
-    margin: 10px auto;
-} */
+}
