@@ -1,3 +1,16 @@
+/* mdn 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body > div {
     display: table;
     margin: 20px auto;
@@ -10,13 +23,14 @@ body h1 {
     background-origin: padding-box;
     color: white;
     text-shadow: 2px 2px #ff000092;
-
     text-align: center;
 }
 
 a {
     font-size: 20px;
     text-decoration: none;
+    /* unvisited links */
+    color: inherit;
 }
 
 a:visited {
